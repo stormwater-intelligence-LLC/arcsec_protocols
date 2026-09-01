@@ -10,7 +10,7 @@ ARCSEC 2 is organized into thirteen operating standards.
 
 1. **Authority** — Defines who may approve work, changes, access, and actions.
 2. **Operating Requirements** — Defines the basic rules systems must follow while performing work.
-3. **Source and Evidence Requirements** — Defines how sources are selected, reviewed, and used.
+3. **Sources and Information** — Defines how sources are selected, reviewed, and used.
 4. **Action Approval** — Defines when approval is required before an action is performed.
 5. **Data and File Integrity** — Defines requirements for files, records, versions, and file checks.
 6. **Scope and Limits** — Defines what the system is allowed to do and when it must stop.
@@ -22,6 +22,6 @@ ARCSEC 2 is organized into thirteen operating standards.
 12. **System Access** — Defines how access, credentials, connections, and permissions are handled.
 13. **Verification and Record History** — Defines how completed work is checked and how records are maintained.
 
-Each standard remains DRAFT until reviewed and approved.
+All thirteen standards are currently **DRAFT**. A standard does not become active until it has been reviewed and approved.
 
-The first detailed standard is maintained at `standards/01-authority.md`.
+Detailed standards are maintained in the `standards/` directory.
