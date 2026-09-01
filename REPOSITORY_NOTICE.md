@@ -8,4 +8,12 @@ Original ARCSEC material is preserved through Git history and the `history/` dir
 
 Do not place passwords, API keys, tokens, private keys, or other protected information in this repository.
 
-The repository currently includes a GPL-3.0 license file. The license remains unchanged pending a separate licensing decision.
+## License
+
+ARCSEC is proprietary to Daniel Guzman and Stormwater Intelligence LLC.
+
+Copyright © 2026 Daniel Guzman and Stormwater Intelligence LLC. All rights reserved.
+
+Public access to this repository does not grant permission to copy, reproduce, modify, distribute, republish, implement, or commercialize ARCSEC or its supporting materials.
+
+See `LICENSE` for the current license terms.
