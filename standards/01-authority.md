@@ -1,9 +1,9 @@
 # ARCSEC Standard 01 — Authority
 
 **System:** ARCSEC  
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -56,4 +56,4 @@ When approval must be recorded, the record must identify:
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
