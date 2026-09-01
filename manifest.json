@@ -1,8 +1,8 @@
 {
   "system": "ARCSEC",
   "title": "Stormwater Intelligence Operating System",
-  "version": "2.0 Draft",
-  "status": "DRAFT",
+  "version": "2.0",
+  "status": "APPROVED",
   "owner": "Daniel Guzman",
   "organization": "Stormwater Intelligence LLC",
   "date": "2026-09-01",
@@ -52,5 +52,5 @@
   "license": "ARCSEC Proprietary License",
   "license_file": "LICENSE",
   "historical_license_note": "Earlier repository history contains a prior GPL-3.0 license. Current ARCSEC 2 materials use the ARCSEC Proprietary License. Historical versions remain preserved in Git history.",
-  "note": "Documents marked DRAFT are not active until reviewed and approved."
+  "note": "ARCSEC 2.0 documents are approved and active."
 }
