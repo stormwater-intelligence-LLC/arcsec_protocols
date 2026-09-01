@@ -8,22 +8,32 @@
 
 This standard defines how Standard Operating Procedures are written, reviewed, approved, and used.
 
-## REQUIREMENTS
+## REQUIRED CONTENT
 
-An SOP should clearly state:
+An ARCSEC-controlled SOP must identify:
 
+- SOP title and identifier.
+- Version and status.
+- Owner or responsible role.
 - What operation it covers.
 - When it applies.
-- What information or access is needed.
+- What information, files, systems, or access are needed.
 - The steps to perform the work.
-- What approval is required.
+- What approval is required and where it is required.
+- What conditions require the work to stop.
 - How the result is checked.
 - What record is kept.
 - What to do when the procedure cannot be completed.
 
-An SOP should not create requirements that are not established by the applicable source or approved operating requirement.
+## REQUIREMENTS
 
-Changes to an active SOP should be documented and reviewed before the new version becomes active.
+An SOP must follow higher applicable ARCSEC standards, policies, and controlling sources.
+
+An SOP must not create a regulatory or other controlling requirement that is not established by the applicable source.
+
+An SOP must not remove or bypass an approval, stop condition, verification step, or record requirement established by a higher applicable requirement.
+
+Changes to an ACTIVE SOP must be documented, tested when applicable, reviewed, and approved before the revised version becomes ACTIVE.
 
 ## STATUS
 
