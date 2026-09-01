@@ -1,8 +1,8 @@
 # ARCSEC Standard 09 — Standard Operating Procedure Requirements
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -37,4 +37,4 @@ Changes to an ACTIVE SOP must be documented, tested when applicable, reviewed, a
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
