@@ -7,7 +7,7 @@
   "organization": "Stormwater Intelligence LLC",
   "date": "2026-09-01",
   "repository": "stormwater-intelligence-LLC/arcsec_protocols",
-  "documents": [
+  "current_documents": [
     "README.md",
     "STANDARDS.md",
     "DOCUMENT_CONTROL.md",
@@ -34,12 +34,23 @@
   ],
   "supporting_directories": [
     "policies",
-    "controls",
+    "checks",
     "schemas",
     "templates",
     "audit",
     "history"
   ],
+  "supporting_files": [
+    "policies/README.md",
+    "checks/README.md",
+    "schemas/README.md",
+    "templates/README.md",
+    "audit/README.md",
+    "history/README.md",
+    "history/ARCSEC_1_README.md"
+  ],
   "license": "ARCSEC Proprietary License",
-  "note": "Documents marked DRAFT are not active until reviewed and approved. File hashes may be recorded when file-integrity verification is required."
+  "license_file": "LICENSE",
+  "historical_license_note": "Earlier repository history contains a prior GPL-3.0 license. Current ARCSEC 2 materials use the ARCSEC Proprietary License. Historical versions remain preserved in Git history.",
+  "note": "Documents marked DRAFT are not active until reviewed and approved."
 }
