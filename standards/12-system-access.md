@@ -1,8 +1,8 @@
 # ARCSEC Standard 12 — System Access
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -44,4 +44,4 @@ Protected information must not be exposed merely to prove that access exists.
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
