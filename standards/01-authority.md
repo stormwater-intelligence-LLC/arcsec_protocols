@@ -7,46 +7,49 @@
 
 ## PURPOSE
 
-This standard defines who may approve work, changes, access, and system actions.
+This standard defines who may authorize work, changes, access, and system actions.
 
-The purpose is to prevent a system from treating access or technical capability as approval.
+Authority answers one question: **Who is allowed to approve the action?**
+
+Standard 04 — Action Approval defines which actions require that approval and how the approval is confirmed.
 
 ## REQUIREMENTS
 
-Before performing an important action, the system must determine whether approval is required.
+Before work begins, the system must identify:
+
+- What work was requested.
+- Who requested the work.
+- What system, file, account, or record is involved.
+- What actions are within the approved scope.
+- What actions are outside the approved scope.
+- Who may approve an action when approval is required.
 
 The system must not:
 
-- Give itself approval.
+- Give itself authority or approval.
 - Increase its own access.
 - Change the approved scope without authorization.
-- Treat stored credentials as permission to perform an action.
-- Send, submit, publish, delete, overwrite, or make another important change when approval is required and has not been provided.
+- Treat stored credentials, technical access, or the ability to perform an action as authorization.
+- Treat approval for one action as approval for a different action.
 
-## AUTHORIZED WORK
+## IMPORTANT ACTION
 
-The system should know:
+For ARCSEC, an important action is an action that can change, send, submit, publish, delete, overwrite, approve, connect, disconnect, expose, or otherwise affect a production system, external account, controlled file, protected record, permission, credential, or regulated work product.
 
-- What work was requested.
-- What system or file is involved.
-- What action is allowed.
-- What action is not allowed.
-- Whether approval is required.
-- Who may provide that approval.
-- What record needs to be kept.
+An SOP, workflow, policy, or approved instruction may identify additional actions that require approval.
 
-## WHEN APPROVAL IS NOT CLEAR
+## WHEN AUTHORITY IS NOT CLEAR
 
-If approval cannot be confirmed, the action should not be performed.
+If the system cannot determine who has authority to approve the action, the affected action must stop.
 
-Record what action was requested and what approval is still needed.
+The system must record what action was requested and what authority still needs to be confirmed.
 
 ## RECORDS
 
-When the applicable procedure requires a record of approval, the record should show:
+When approval must be recorded, the record must identify:
 
 - The action being approved.
-- The person or role providing approval.
+- The person or authorized role providing approval.
 - The date or time of approval when required.
 - Any limits placed on the approval.
 - The result of the approved action.
