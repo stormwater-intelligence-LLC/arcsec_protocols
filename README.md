@@ -4,7 +4,7 @@
 
 ARCSEC began as a set of protocols created for systems used by Stormwater Intelligence.
 
-The purpose was to make sure the systems followed the rules of the work being performed. ARCSEC was not created to rule over the technology. It was created to establish clear requirements for how the system should operate, what it should verify, what it should record, and what it should not do without approval.
+The purpose was to make sure the systems followed the rules of the work being performed. ARCSEC was not created to rule over the technology. It was created to establish clear requirements for how the system should operate, what it should check, what it should record, and what it should not do without approval.
 
 As Stormwater Intelligence developed, ARCSEC expanded beyond the original protocols. It now provides the operating standards used across policies, Standard Operating Procedures (SOPs), skills, workflows, system connections, actions, files, records, and verification.
 
@@ -20,7 +20,7 @@ The system is expected to:
 
 - Follow the requirements that apply to the work.
 - Use the correct source before providing an answer or making a decision.
-- Verify information when verification is required.
+- Check information when a check is required.
 - Do not make up information that is missing.
 - Do not report that something was reviewed if it was not reviewed.
 - Do not report that something was completed if it was not completed.
@@ -63,11 +63,11 @@ A system, service, skill, or connection may have additional requirements dependi
 
 ## OPERATING STANDARDS
 
-ARCSEC is organized around the following standards:
+ARCSEC is organized around thirteen standards:
 
 1. Authority
 2. Operating Requirements
-3. Source and Evidence Requirements
+3. Sources and Information
 4. Action Approval
 5. Data and File Integrity
 6. Scope and Limits
@@ -79,13 +79,13 @@ ARCSEC is organized around the following standards:
 12. System Access
 13. Verification and Record History
 
-Each standard has a separate purpose. Detailed requirements are maintained in the supporting ARCSEC documents.
+Each standard has a separate purpose. Detailed requirements are maintained in the `standards/` directory.
 
 ---
 
 ## HOW ARCSEC IS USED
 
-Before work begins:
+### Before work begins
 
 - Determine what the work is.
 - Determine what requirements apply.
@@ -94,18 +94,18 @@ Before work begins:
 - Determine whether approval is required.
 - Determine what record needs to be kept.
 
-During the work:
+### During the work
 
 - Follow the applicable requirements.
 - Follow the applicable SOP, skill, workflow, and rules.
 - Stay within the approved scope.
 - Use only the system access needed for the work.
 - Record important actions and changes.
-- Stop when required information is missing or an action cannot be completed safely or correctly.
+- Stop when required information is missing or an action cannot be completed correctly.
 
-After the work:
+### After the work
 
-- Verify the result.
+- Check the result.
 - Record what was completed.
 - Record anything that failed or remains incomplete.
 - Keep the required files and records.
@@ -127,9 +127,9 @@ The system must not:
 - Claim a source was reviewed when it was not reviewed.
 - Change the meaning of a source.
 - Leave out an important requirement that changes the answer.
-- Use a lower-quality source when an applicable official source is available and required for the work.
+- Fill missing information with an assumption and report it as fact.
 
-When sources disagree, the issue should be identified and reviewed before the system relies on the information.
+When sources disagree, the issue should be identified and reviewed before the information is used.
 
 ---
 
@@ -153,7 +153,7 @@ The system must not create:
 - Certifications.
 - Regulatory conclusions that are not established by the applicable source.
 
-When the source does not establish the answer, the system should state what still needs to be verified.
+When the source does not establish the answer, the system should state what still needs to be checked.
 
 ---
 
@@ -187,7 +187,7 @@ Before connecting a new service or allowing a system to perform production actio
 - Confirm what actions are not allowed.
 - Keep development and testing separate from production when applicable.
 - Test the connection before relying on it.
-- Verify the result before allowing continued production use.
+- Check the result before allowing continued production use.
 
 Do not connect a service only because access is available.
 
@@ -206,7 +206,7 @@ Before making an important change:
 - Check what other parts of the system may be affected.
 - Keep the current version when it needs to be preserved.
 - Test the change.
-- Verify the result.
+- Check the result.
 - Record the change.
 
 A failed change should not be left in production as if it was completed successfully.
@@ -217,18 +217,18 @@ A failed change should not be left in production as if it was completed successf
 
 ARCSEC requires important files and records to maintain their history.
 
-When a controlled file is changed:
+When an important file is changed:
 
 - Keep the original when required.
 - Create the new version.
 - Record what changed.
 - Record the date of the change.
-- Verify the final file.
+- Check the final file.
 - Create a SHA-256 hash when file-integrity verification is required.
 
-A SHA-256 hash is used to verify that a file has not changed from the version that was recorded.
+A SHA-256 hash is used to confirm that a file has not changed from the version that was recorded.
 
-A hash does not replace review of the file. It verifies the file against the recorded version.
+A hash does not replace review of the file.
 
 ---
 
@@ -262,7 +262,7 @@ Do not report a successful result when:
 - The action only partially completed.
 - The system returned an error.
 - Required information was missing.
-- Verification was not completed.
+- The required check was not completed.
 - The result could not be confirmed.
 
 When possible, record what failed, what was affected, and what needs to happen next.
@@ -285,7 +285,7 @@ If protected information is exposed or an unauthorized change is found:
 - Protect the affected system or account.
 - Record what happened.
 - Replace or revoke exposed credentials when required.
-- Verify the system before returning it to normal use.
+- Check the system before returning it to normal use.
 
 ---
 
@@ -303,7 +303,7 @@ Documentation should clearly separate:
 
 - What was completed.
 - What changed.
-- What was verified.
+- What was checked.
 - What failed.
 - What remains outstanding.
 - What needs follow-up.
@@ -312,28 +312,41 @@ Documentation should clearly separate:
 
 ## REPOSITORY STRUCTURE
 
-The ARCSEC repository is organized to keep the operating system, standards, supporting documents, templates, and records separate.
-
 ```text
-ARCSEC/
+arcsec_protocols/
 ├── README.md
 ├── STANDARDS.md
 ├── DOCUMENT_CONTROL.md
 ├── SECURITY.md
-├── CHANGELOG.md
 ├── REPOSITORY_NOTICE.md
+├── CHANGELOG.md
+├── LICENSE
+├── manifest.json
+├── index.html
 ├── standards/
 ├── policies/
 ├── controls/
 ├── schemas/
 ├── templates/
 ├── audit/
-└── manifest.json
+└── history/
 ```
 
 The README is the official starting point.
 
-Detailed standards are maintained separately so the README can remain clear and usable.
+The `history/` directory and Git history preserve earlier ARCSEC material.
+
+---
+
+## LICENSE
+
+ARCSEC is proprietary to Daniel Guzman and Stormwater Intelligence LLC.
+
+Copyright © 2026 Daniel Guzman and Stormwater Intelligence LLC. All rights reserved.
+
+Public access to this repository does not grant permission to copy, reproduce, modify, distribute, republish, implement, or commercialize ARCSEC or its supporting materials.
+
+See `LICENSE` for the current license terms.
 
 ---
 
@@ -360,11 +373,13 @@ When a new version replaces an approved version, the previous version should rem
 
 ### ARCSEC 1
 
-Original ARCSEC protocols established the early rules used to direct system behavior, protect files and records, document actions, use hashing, and maintain system history.
+The original ARCSEC protocols established the early rules used to direct system behavior, protect files and records, document actions, use hashing, and maintain system history.
+
+The previous README is preserved at `history/ARCSEC_1_README.md` and the repository's Git history preserves earlier versions of the other files.
 
 ### ARCSEC 2
 
-ARCSEC 2 organizes those original protocols into a complete operating system for Stormwater Intelligence.
+ARCSEC 2 organizes the original protocols into the Stormwater Intelligence Operating System.
 
 The original purpose remains the same:
 
@@ -376,10 +391,6 @@ The original purpose remains the same:
 
 ARCSEC 2 is being reviewed one standard at a time.
 
-The README establishes the overall purpose and operating requirements.
+All thirteen standards are currently included as drafts in the `standards/` directory.
 
-Each detailed standard will be reviewed before being marked APPROVED or ACTIVE.
-
-The first detailed standard is:
-
-**ARCSEC Standard 01 — Authority**
+No draft standard becomes active until it has been reviewed and approved.
