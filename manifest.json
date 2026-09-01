@@ -1,0 +1,45 @@
+{
+  "system": "ARCSEC",
+  "title": "Stormwater Intelligence Operating System",
+  "version": "2.0 Draft",
+  "status": "DRAFT",
+  "owner": "Daniel Guzman",
+  "organization": "Stormwater Intelligence LLC",
+  "date": "2026-09-01",
+  "repository": "stormwater-intelligence-LLC/arcsec_protocols",
+  "documents": [
+    "README.md",
+    "STANDARDS.md",
+    "DOCUMENT_CONTROL.md",
+    "SECURITY.md",
+    "REPOSITORY_NOTICE.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.html"
+  ],
+  "standards": [
+    "standards/01-authority.md",
+    "standards/02-operating-requirements.md",
+    "standards/03-source-and-evidence.md",
+    "standards/04-action-approval.md",
+    "standards/05-data-and-file-integrity.md",
+    "standards/06-scope-and-limits.md",
+    "standards/07-errors-missing-information-stop-conditions.md",
+    "standards/08-logging-and-audit.md",
+    "standards/09-sop-requirements.md",
+    "standards/10-skill-requirements.md",
+    "standards/11-workflow-requirements.md",
+    "standards/12-system-access.md",
+    "standards/13-verification-and-record-history.md"
+  ],
+  "supporting_directories": [
+    "policies",
+    "controls",
+    "schemas",
+    "templates",
+    "audit",
+    "history"
+  ],
+  "license": "ARCSEC Proprietary License",
+  "note": "Documents marked DRAFT are not active until reviewed and approved. File hashes may be recorded when file-integrity verification is required."
+}
