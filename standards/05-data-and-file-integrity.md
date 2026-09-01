@@ -1,8 +1,8 @@
 # ARCSEC Standard 05 — Data and File Integrity
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -25,4 +25,4 @@ A hash confirms whether a file matches the version that was recorded. It does no
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
