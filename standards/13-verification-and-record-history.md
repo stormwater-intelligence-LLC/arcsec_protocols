@@ -1,8 +1,8 @@
 # ARCSEC Standard 13 — Verification and Record History
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -46,4 +46,4 @@ Corrections and superseded versions must remain identifiable when document contr
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
