@@ -6,23 +6,35 @@
 
 ## PURPOSE
 
-This standard defines how system skills are documented, tested, and used.
+This standard defines how system skills are documented, tested, approved, and used.
+
+## REQUIRED CONTENT
+
+An ARCSEC-controlled skill must identify:
+
+- Skill name and version.
+- Status.
+- What work it performs.
+- What starts or calls the skill.
+- Required inputs.
+- Expected outputs.
+- What systems, tools, files, or data it uses.
+- What limits apply.
+- What approval is required.
+- What conditions require the skill to stop.
+- How the result is checked.
+- What record is kept when required.
+- What happens when the skill cannot complete the work.
 
 ## REQUIREMENTS
 
-A skill should clearly state:
-
-- What work it performs.
-- What information it needs.
-- What systems or tools it uses.
-- What limits apply.
-- What approval is required.
-- How the result is checked.
-- What happens when the skill cannot complete the work.
+A skill must follow higher applicable ARCSEC standards, policies, and SOPs.
 
 A skill must not be treated as approved for production use only because it exists or can run.
 
-Changes to an active skill should be tested and documented before production use.
+Before an ACTIVE skill is changed for production use, the change must be documented and tested against its required inputs, outputs, limits, stop conditions, and approval requirements.
+
+A failed test must not be represented as a successful test.
 
 ## STATUS
 
