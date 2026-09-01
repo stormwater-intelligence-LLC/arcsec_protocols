@@ -10,19 +10,27 @@ This standard defines what important actions and changes must be recorded.
 
 ## REQUIREMENTS
 
-Records should show enough information to determine:
+When an action or change requires a record, the record must contain enough information to determine:
 
 - What was requested.
 - What was reviewed.
 - What action was taken.
-- What system, file, or record was affected.
+- What system, file, account, or record was affected.
 - Whether approval was required.
-- Whether the action worked.
+- Who provided approval when approval must be recorded.
+- Whether the action succeeded, partially succeeded, or failed.
 - What changed.
 - What remains outstanding.
-- What file or record was produced.
+- What file, record, or other result was produced.
+- The date or time when required by the applicable procedure.
 
-Corrections should be documented. Important history should not be silently removed or rewritten.
+## CORRECTIONS
+
+Corrections must be documented when they change an important record.
+
+Important history must not be silently removed, rewritten, or represented as the original record.
+
+If a previous record is incorrect, the correction must preserve enough information to determine what was corrected.
 
 ## STATUS
 
