@@ -325,7 +325,7 @@ arcsec_protocols/
 ├── index.html
 ├── standards/
 ├── policies/
-├── controls/
+├── checks/
 ├── schemas/
 ├── templates/
 ├── audit/
@@ -375,7 +375,7 @@ When a new version replaces an approved version, the previous version should rem
 
 The original ARCSEC protocols established the early rules used to direct system behavior, protect files and records, document actions, use hashing, and maintain system history.
 
-The previous README is preserved at `history/ARCSEC_1_README.md` and the repository's Git history preserves earlier versions of the other files.
+The previous README is preserved at `history/ARCSEC_1_README.md`. Earlier versions of `index.html`, `LICENSE`, and other files remain available through Git history and are identified in `history/README.md`.
 
 ### ARCSEC 2
 
