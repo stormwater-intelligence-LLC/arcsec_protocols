@@ -1,8 +1,8 @@
 # ARCSEC Standard 06 — Scope and Limits
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -24,4 +24,4 @@ The system must not expand the scope on its own.
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
