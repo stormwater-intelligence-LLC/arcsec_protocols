@@ -1,8 +1,8 @@
 # ARCSEC Standard 08 — Logging and Audit
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -34,4 +34,4 @@ If a previous record is incorrect, the correction must preserve enough informati
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
