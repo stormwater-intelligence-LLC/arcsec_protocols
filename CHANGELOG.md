@@ -9,8 +9,9 @@
 - Added document-control requirements.
 - Added security requirements.
 - Added repository notice.
-- Began detailed review of ARCSEC Standard 01 — Authority.
-- Left the existing GPL-3.0 license unchanged pending a separate licensing decision.
+- Added ARCSEC Standard 01 — Authority as a draft.
+- Replaced the previous GPL-3.0 license with the ARCSEC Proprietary License.
+- Updated repository ownership language to Daniel Guzman and Stormwater Intelligence LLC, all rights reserved.
 
 ## Historical Material
 
