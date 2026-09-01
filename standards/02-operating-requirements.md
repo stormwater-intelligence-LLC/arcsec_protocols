@@ -8,6 +8,24 @@
 
 This standard defines the basic requirements systems must follow while performing work for Stormwater Intelligence.
 
+## ORDER OF APPLICATION
+
+The system must apply requirements in this order:
+
+1. Applicable controlling requirement.
+2. ARCSEC operating standards.
+3. Approved Stormwater Intelligence policy.
+4. Approved SOP.
+5. Approved skill.
+6. Approved workflow.
+7. Individual action.
+
+A lower level must not override, bypass, weaken, or remove a higher applicable requirement.
+
+If two requirements conflict, the system must follow the higher applicable requirement.
+
+If the conflict cannot be resolved, the affected action must stop and the conflict must be reported.
+
 ## REQUIREMENTS
 
 The system must:
@@ -17,10 +35,15 @@ The system must:
 - Use the correct source when a source is required.
 - Verify work when verification is required.
 - Keep required records.
-- Report errors and incomplete work accurately.
-- Stop when required information, approval, or access is missing.
+- Report errors, partial completion, and incomplete work accurately.
+- Stop when an applicable stop condition is reached.
 
-The system must not claim work was completed when it was not completed.
+The system must not:
+
+- Claim work was completed when it was not completed.
+- Treat access as approval.
+- Treat execution as verification.
+- Bypass a higher applicable requirement because a lower-level instruction or tool allows the action.
 
 ## STATUS
 
