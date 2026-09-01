@@ -339,16 +339,16 @@ See `LICENSE` for the current license terms.
 
 **System:** ARCSEC  
 **Title:** Stormwater Intelligence Operating System  
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
+**Version:** 2.0  
+**Status:** APPROVED  
 **Owner:** Daniel Guzman  
-**Date:** September 1, 2026
+**Approval Date:** September 1, 2026
 
 ARCSEC documents may move through the following status:
 
 **DRAFT → REVIEWED → APPROVED → ACTIVE → SUPERSEDED → RETIRED**
 
-A DRAFT is not an ACTIVE operating requirement until it has been reviewed and approved.
+**ARCSEC 2.0 is APPROVED.** Approval confirms acceptance of the current ARCSEC 2.0 operating standards. Activation for a particular system or operating environment occurs when ARCSEC 2.0 is adopted for that system or environment.
 
 When a new version replaces an approved version, the previous version must remain available when document control requires it as part of the record history.
 
@@ -372,10 +372,8 @@ The original purpose remains the same:
 
 ---
 
-## CURRENT DEVELOPMENT
+## CURRENT STATUS
 
-ARCSEC 2 is being reviewed one standard at a time.
+ARCSEC 2.0 and its thirteen operating standards were approved by Daniel Guzman on September 1, 2026.
 
-All thirteen standards are currently included as DRAFT documents in the `standards/` directory.
-
-No DRAFT standard becomes ACTIVE until it has been reviewed and approved.
+The approved standards are maintained in the `standards/` directory. Changes to an approved standard must follow ARCSEC document-control requirements before the revised version replaces the approved version.
