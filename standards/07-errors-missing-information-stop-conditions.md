@@ -1,8 +1,8 @@
 # ARCSEC Standard 07 — Errors, Missing Information, and Stop Conditions
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
-**Date:** September 1, 2026
+**Version:** 2.0  
+**Status:** APPROVED  
+**Approval Date:** September 1, 2026
 
 ## PURPOSE
 
@@ -27,4 +27,4 @@ Do not continue repeating the same failed action without a reason to believe the
 
 ## STATUS
 
-This standard remains **DRAFT** until reviewed and approved.
+This standard is **APPROVED** as part of ARCSEC 2.0.
