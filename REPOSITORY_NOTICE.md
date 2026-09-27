@@ -2,7 +2,7 @@
 
 This repository contains the current ARCSEC operating documents for Stormwater Intelligence LLC.
 
-ARCSEC 2 is under review. Documents marked **DRAFT** are not active requirements until they have been reviewed and approved.
+ARCSEC 2.0 is approved. The approved standards are maintained in the `standards/` directory. Activation for a particular system or operating environment occurs when ARCSEC 2.0 is adopted for that system or environment.
 
 Original ARCSEC material is preserved through Git history and the `history/` directory where applicable.
 
