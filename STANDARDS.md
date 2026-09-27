@@ -2,8 +2,8 @@
 
 ## Stormwater Intelligence Operating System
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
+**Version:** 2.0  
+**Status:** APPROVED  
 **Date:** September 1, 2026
 
 ARCSEC 2 is organized into thirteen operating standards.
@@ -22,6 +22,6 @@ ARCSEC 2 is organized into thirteen operating standards.
 12. [**System Access**](standards/12-system-access.md) — How access, credentials, connections, and permissions are handled.
 13. [**Verification and Record History**](standards/13-verification-and-record-history.md) — How completed work is checked and how records are maintained.
 
-All thirteen standards are currently **DRAFT**.
+All thirteen standards are currently **APPROVED**.
 
-A standard does not become active until it has been reviewed and approved.
+An approved standard becomes active for a particular system or operating environment when ARCSEC 2.0 is adopted for that system or environment.
