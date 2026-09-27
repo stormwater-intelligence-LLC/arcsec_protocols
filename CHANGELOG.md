@@ -1,5 +1,13 @@
 # ARCSEC Change Log
 
+## September 1, 2026 — ARCSEC 2.0 Approved
+
+- Completed review of ARCSEC 2 operating standards.
+- Approved all thirteen ARCSEC operating standards.
+- Established ARCSEC 2.0 as the approved Stormwater Intelligence operating standard.
+- Updated current governing document status from DRAFT to APPROVED.
+- Preserved the ARCSEC 2 draft history and ARCSEC 1 historical material.
+
 ## September 1, 2026 — ARCSEC 2 Draft
 
 - Replaced the outdated ARCSEC Strategic Intelligence Report landing page with the ARCSEC 2 operating-system overview.
