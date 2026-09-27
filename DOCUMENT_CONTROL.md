@@ -1,8 +1,8 @@
 # ARCSEC Document Control
 
 **System:** ARCSEC  
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
+**Version:** 2.0  
+**Status:** APPROVED  
 **Owner:** Daniel Guzman  
 **Date:** September 1, 2026
 
