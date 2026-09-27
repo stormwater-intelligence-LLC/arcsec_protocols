@@ -1,7 +1,7 @@
 # ARCSEC Security
 
-**Version:** 2.0 Draft  
-**Status:** DRAFT  
+**Version:** 2.0  
+**Status:** APPROVED  
 **Date:** September 1, 2026
 
 ARCSEC requires protected information and system access to be handled carefully.
